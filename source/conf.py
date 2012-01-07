@@ -25,7 +25,7 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.pngmath', 'sphinx.ext.mathjax']
+extensions = ['sphinx.ext.pngmath'] #, 'sphinx.ext.mathjax']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PoincarProjectdoc'
+htmlhelp_basename = 'PoincareProjectdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -183,7 +183,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'PoincarProject.tex', u'Poincaré Project Documentation',
+  ('index', 'PoincareProject.tex', u'Poincaré Project Documentation',
    u'James Tauber', 'manual'),
 ]
 
@@ -213,7 +213,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'poincarproject', u'Poincaré Project Documentation',
+    ('index', 'poincareproject', u'Poincaré Project Documentation',
      [u'James Tauber'], 1)
 ]
 
@@ -227,8 +227,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'PoincarProject', u'Poincaré Project Documentation',
-   u'James Tauber', 'PoincarProject', 'One line description of project.',
+  ('index', 'PoincareProject', u'Poincaré Project Documentation',
+   u'James Tauber', 'PoincareProject', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -248,7 +248,7 @@ texinfo_documents = [
 epub_title = u'Poincaré Project'
 epub_author = u'James Tauber'
 epub_publisher = u'James Tauber'
-epub_copyright = u'2012, James Tauber'
+epub_copyright = u'2004-2012, James Tauber'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.

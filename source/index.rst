@@ -13,6 +13,7 @@ Posts
 
    	thinking_like_a_pure_mathematician
 	adding_structure_to_sets
+	metric_spaces
 
 Indices and tables
 ==================
