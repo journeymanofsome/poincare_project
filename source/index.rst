@@ -23,12 +23,10 @@ Here is how I described the original content on my blog:
 This is a flat list of the posts converted so far. Lots more to come then I'll look and structuring them a little more.
 
 .. toctree::
-   	:maxdepth: 2
+    :maxdepth: 2
 
-   	thinking_like_a_pure_mathematician
-	adding_structure_to_sets
-	metric_spaces
-	open_balls_and_continuity
-
-
-
+    thinking_like_a_pure_mathematician
+    adding_structure_to_sets
+    metric_spaces
+    open_balls_and_continuity
+    open_sets
