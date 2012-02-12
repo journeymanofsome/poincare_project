@@ -24,7 +24,7 @@ Another valid topology on :math:`\{a, b\}` would be:
 
 In other words, all subsets are open. This also meets the definition of a topology. For any set the topology which defines all subsets to be open will be the largest possible topology.
 
-There are two other possible topologies that can be defined on the set :math:`{a, b}`:
+There are two other possible topologies that can be defined on the set :math:`\{a, b\}`:
 
 :math:`\{ \{\}, \{a\}, \{a, b\} \}`
 
